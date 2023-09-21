@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "borel";
+    src: url(../font/Borel/Borel-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Merr-bold";
+    src: url(../font/Merriweather/Merriweather-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Merr-regular";
+    src: url(../font/Merriweather/Merriweather-Regular.ttf);
+    font-weight: 400;
+}

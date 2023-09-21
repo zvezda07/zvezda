@@ -1,0 +1,96 @@
+@import url(font.css);
+
+.main {
+    padding: 80px 0 80px;
+}
+
+.container__project {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.wrapper__project {
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 7px;
+    gap: 10px;
+}
+
+.project__title {
+    font-family: "borel";
+    font-size: 5vh;
+    color: #fff;
+}
+
+.project__txt {
+    font-size: 20px;
+    color: rgb(205, 176, 154);
+
+}
+
+.project__btn {
+    max-width: 200px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 12px 5px ;
+    overflow: hidden;
+    color: rgb(82, 72, 72);
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.project__btn:hover {
+    transform: scale(1.2);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box-left {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.box-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__btn {
+    display: flex;
+}
+
+.icons {
+    transition: 0.4s;
+}
+
+.project__btn:hover .icons {
+    transform: translateX(100px);
+
+}
+
+.img__project {
+    transition: 0.4s;
+}
+
+.img__project:hover {
+    transform: scale(1.1);
+}
+
+.bgdg {
+    mix-blend-mode: darken;
+    width: 25%;
+}
