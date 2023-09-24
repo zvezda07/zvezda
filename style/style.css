@@ -139,9 +139,7 @@ ul {
     }
     @media (max-width: 768px) {
 
-        .bgdg {
-            display: none;
-        }
+        
    
         .nav__menu {
             position: absolute;
@@ -379,6 +377,7 @@ ul {
 
 .footer {
     position: relative;
+    overflow: hidden;
 }
 
 
